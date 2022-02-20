@@ -12,11 +12,12 @@
 
 用法：
 
-1.阅读bits.c的注释与代码   修改它
-2.命令行运行./dlc -e bits.c查看自己用了多少操作符，以及是否有代码风格问题
-3.运行make clean && make btest编译文件
-4.运行./btest检查自己是否做对了
-5.return 1 直到全部做完
-6.最终运行./driver.pl获得打分
+1.  阅读bits.c的注释与代码   修改它
+
+2.  命令行运行./dlc -e bits.c查看自己用了多少操作符，以及是否有代码风格问题
+3.  运行make clean && make btest编译文件
+4.  运行./btest检查自己是否做对了
+5.  return 1 直到全部做完
+6.  最终运行./driver.pl获得打分
 
 集成脚本，做完bits.c后，运行run.sh，即可知道自己做的对不对
